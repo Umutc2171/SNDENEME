@@ -1,0 +1,148 @@
+.single-blog {
+  margin-top: 40px;
+}
+
+.single-blog .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.single-blog .blog-wrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.single-blog .blog-meta {
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.single-blog .blog-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.single-blog .blog-date::before,
+.single-blog .blog-date::after {
+  content: "";
+  width: 15px;
+  height: 1px;
+  background-color: #e51414;
+}
+
+.single-blog .blog-tags a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.single-blog .blog-tags a:hover {
+  color: #0056b3;
+}
+
+.single-blog .blog-title {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.blog-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.blog-content ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.blog-content blockquote {
+  padding: 20px 30px 12px 50px;
+  border-left: 4px solid #dee0ea;
+  background-color: #fff;
+  margin: 20px 0;
+  color: #555;
+  font-style: italic;
+}
+
+.blog-content blockquote h4 {
+  margin: 0;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.blog-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-content strong {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+
+/* Mobil cihazlar için ayarlar */
+@media (max-width: 768px) {
+  .single-blog .blog-title {
+    font-size: 28px;
+  }
+
+  .blog-content h2 {
+    font-size: 20px;
+  }
+
+  .blog-content ul {
+    padding-left: 30px;
+  }
+
+  .blog-content ul li {
+    font-size: 16px;
+  }
+
+  .blog-content blockquote {
+    padding: 15px 20px 8px 40px;
+    font-size: 14px;
+  }
+
+  .blog-content blockquote h4 {
+    font-size: 18px;
+  }
+
+  .blog-content h4 {
+    font-size: 18px;
+  }
+
+  .blog-content strong {
+    font-size: 16px;
+  }
+}

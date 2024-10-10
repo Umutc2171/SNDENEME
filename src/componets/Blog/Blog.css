@@ -1,0 +1,19 @@
+.section-title{
+  text-align: center;
+  margin-bottom: 35px;
+}
+.section-title h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.blogs {
+  margin-bottom: 30px;
+;  
+}
+
+.blogs .blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
